@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+:root {
+    --principal: #47b3bb;
+    --secundario: #198d96;
+    --blanco: #FFFFFF;
+    --gris: #a9b3b2b7;
+    --negro: #000000;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: left;
+    align-items: left;
+}
+
+h1 {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    margin: 15px;
+    font-size: 2rem;
+}
+
+.titulocita{
+    text-align: center;
+    font-size: 300;
+    font-size: 3rem;
+}
+
+h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.introduccion{
+    margin: 1rem;
+    max-width: 50rem;
+    font-size: 1rem;
+}
+/*Imagenes*/
+.imagencorporativa {
+    margin: 1rem 0;
+    width: 10rem;
+    height: 10rem;
+    display: block;
+}
+
+.logo{
+    max-width: 3rem;
+    margin: 0 1rem;
+}
+
+.imagenmedicos{
+    height: 20rem;
+    display: block;
+}
+
+.imagenenfermera{
+    height: 20rem;
+    display: block;
+}
+
+.imagencena{
+    height: 18rem;
+}
+
+/*Barra navegacion */
+.navegacion-principal {
+    text-align: center;
+    background-color: #5cb4d7;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Formulario Cita previa */
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+.form-citaprevia {
+    width: 100%;
+    max-width: 18rem;
+    padding: 15px;
+    margin: auto;
+    margin-top: 12%;
+
+}
+    
+.form-citaprevia .checkbox {
+    font-weight: 400;
+}
+    
+.form-citaprevia .form-floating:focus-within {
+    z-index: 2;
+}
+    
+.form-citaprevia input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+} 
+    
+.form-citaprevia input[type="date"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+    
+/* Formulario Inicio de sesión */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+  
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+.form-signin {
+    width: 100%;
+    max-width: 18rem;
+    padding: 15px;
+    margin: auto;
+    margin-top: 3rem;
+}
+  
+.form-signin .checkbox {
+    font-weight: 400;
+}
+  
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+  
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+  
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+  /* Formulario Nueva cuenta */
+  .login-block {
+    margin: 30px auto;
+    min-height: 93.6vh;
+}
+
+.login-block .auth-box {
+    margin: 20px auto 0;
+    max-width: 450px !important;
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 5px 0 rgba(43, 43, 43, .1), 0 11px 6px -7px rgba(43, 43, 43, .1);
+    box-shadow: 0 0 5px 0 rgba(43, 43, 43, .1), 0 11px 6px -7px rgba(43, 43, 43, .1);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+}
+
+.card .card-block {
+    padding: 1.25rem;
+}
+
+.f-80 {
+    font-size: 80px;
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-material .form-control {
+    display: inline-block;
+    height: 43px;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 9px;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn-md {
+    padding: 10px 16px;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.btn-primary {
+    background-color: #4099ff;
+    border-color: #4099ff;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all ease-in .3s;
+    transition: all ease-in .3s;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
